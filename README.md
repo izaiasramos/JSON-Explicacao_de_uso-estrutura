@@ -22,3 +22,23 @@ nome/valor, no qual o nome é uma string, seguido de dois
 pontos (:) que separam o nome do valor. Esse par 
 “nome:valor” pode ou não ser procedido de um ou mais pares 
 nome/valor, devendo esses serem separados por vírgula.
+
+
+{
+
+    "correntistas": {
+        "conta": [{
+                "agencia": "0123-4",
+                "tipo": "física",
+                "nome": "José Maria",
+                "numero": "000.000-00"
+            },
+            {
+                "agencia": "5678-9",
+                "tipo": "jurídica",
+                "nome": "José Maria SA",
+                "numero": "111.111-11"
+            }
+        ]
+    }
+}
